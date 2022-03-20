@@ -210,6 +210,7 @@ the website, in dark theme
 .nav__logo{
   /* text-transform: uppercase; */
   font-weight: 700;
+  font-size: 1.1rem;
   letter-spacing: -1px;
   display: inline-flex;
   align-items: center;
@@ -749,7 +750,7 @@ the website, in dark theme
 
 .footer__subscribe{
   background-color: var(--first-color-lighten);
-  padding: .75rem;
+  /* padding: .5rem; */
   display: flex;
   justify-content: space-between;
   /* border-radius: .5rem; */
