@@ -208,7 +208,7 @@ the website, in dark theme
 }
 
 .nav__logo{
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
   letter-spacing: -1px;
   display: inline-flex;
@@ -466,7 +466,7 @@ the website, in dark theme
   background-color: var(--first-color-alt);
   color: #FFF;
   padding: .5rem .75rem;
-  border-radius: .25rem;
+  /* border-radius: .25rem; */
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-1-5);
   transition: .3s;
@@ -527,7 +527,7 @@ the website, in dark theme
   background-color: var(--first-color);
   color: #FFF;
   padding: .25rem;
-  border-radius: .35rem;
+  /* border-radius: .35rem; */
   font-size: 1.15rem;
 }
 
@@ -566,7 +566,7 @@ the website, in dark theme
 
 .questions__item{
   background-color: var(--container-color);
-  border-radius: .25rem;
+  /* border-radius: .25rem; */
 }
 
 .questions__item-title{
@@ -752,7 +752,7 @@ the website, in dark theme
   padding: .75rem;
   display: flex;
   justify-content: space-between;
-  border-radius: .5rem;
+  /* border-radius: .5rem; */
 }
 
 .footer__input{
