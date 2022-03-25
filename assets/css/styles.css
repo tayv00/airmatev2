@@ -460,6 +460,12 @@ the website, in dark theme
   background-color: var(--container-color);
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
+  position: relative;
+}
+
+.steps__img {
+  width: 80%;
+  margin: auto;
 }
 
 .steps__card-number{
@@ -471,6 +477,7 @@ the website, in dark theme
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-1-5);
   transition: .3s;
+  position: absolute;
 }
 
 .steps__card-title{
@@ -758,7 +765,7 @@ the website, in dark theme
 
 .footer__input{
   width: 70%;
-  padding: 0 1rem;
+  padding: 0.5 1rem;
   background: none;
   color: var(--text-color);
   border: none;
@@ -859,6 +866,7 @@ the website, in dark theme
 
   .home__img{
     /* width: 180px; */
+    width: 130%;
   }
   .home__title{
     font-size: var(--h1-font-size);
@@ -870,6 +878,7 @@ the website, in dark theme
   .steps__card{
     padding: 1.5rem;
   }
+
 
   .product__container{
     grid-template-columns: .6fr;
