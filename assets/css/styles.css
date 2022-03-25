@@ -757,7 +757,7 @@ the website, in dark theme
 
 .footer__subscribe{
   background-color: var(--first-color-lighten);
-  /* padding: .5rem; */
+  padding: .5rem;
   display: flex;
   justify-content: space-between;
   /* border-radius: .5rem; */
