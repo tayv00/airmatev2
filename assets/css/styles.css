@@ -460,24 +460,23 @@ the website, in dark theme
   background-color: var(--container-color);
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
-  position: relative;
-}
-
-.steps__img {
-  width: 80%;
-  margin: auto;
+  /* position: relative; */
 }
 
 .steps__card-number{
   display: inline-block;
   background-color: var(--first-color-alt);
-  color: #FFF;
+  color: var(--first-color-lighten);
   padding: .5rem .75rem;
   /* border-radius: .25rem; */
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-1-5);
   transition: .3s;
-  position: absolute;
+  /* position: absolute; */
+}
+
+.steps__card-number a{
+  color: var(--first-color-lighten);
 }
 
 .steps__card-title{
@@ -604,6 +603,16 @@ the website, in dark theme
   overflow: hidden;
   height: 0;
 }
+
+  .questions__content li a{
+    margin: 5px;
+    color: #FFF;
+  }
+
+  .questions__content h4, .questions__content h4 a  {
+    margin: 3px;
+    color: var(--first-color-lighten);
+  }
 
 .questions__item,
 .questions__header,
@@ -1079,7 +1088,7 @@ the website, in dark theme
 .table-container {
   width: 85%;
   max-width: 1000px;
-  margin: auto;
+  margin: 50px auto;
   /* padding-left: 10px;
   padding-right: 10px; */
 }
