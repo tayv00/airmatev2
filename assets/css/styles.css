@@ -327,8 +327,8 @@ the website, in dark theme
 
 .home__social{
   position: absolute;
-  top: 7rem;
-  right: -.5rem;
+  top: 17rem;
+  right: -.1rem;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
