@@ -160,7 +160,7 @@ the website, in dark theme
 
 .section__title,
 .section__title-center{
-  font-size: var(--h2-font-size);
+  font-size: var(--big-font-size);
   margin-bottom: var(--mb-2);
   line-height: 140%;
 }
@@ -302,7 +302,7 @@ the website, in dark theme
 
 /*=============== HOME ===============*/
 .home{
-  padding: 3.5rem 0 2rem;
+  padding: 1rem 0 2rem;
 }
 
 .home__container{
@@ -327,8 +327,8 @@ the website, in dark theme
 
 .home__social{
   position: absolute;
-  top: 2rem;
-  right: -1rem;
+  top: 7rem;
+  right: -.5rem;
   display: grid;
   justify-items: center;
   row-gap: 3.5rem;
@@ -578,7 +578,7 @@ the website, in dark theme
 }
 
 .questions__item-title{
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
 
@@ -608,10 +608,11 @@ the website, in dark theme
   .questions__content li a{
     margin: 5px;
     color: #FFF;
+    font-size: var(--small-font-size);
   }
 
-  .questions__content h4, .questions__content h4 a  {
-    margin: 3px;
+  .questions__content h3, .questions__content h3 a  {
+    margin: 10px 0;
     color: var(--first-color-lighten);
   }
 
@@ -735,8 +736,13 @@ the website, in dark theme
 }
 
 /*=============== FOOTER ===============*/
+footer{
+  background-color: var(--second-color);
+}
+
 .footer__container{
   row-gap: 3rem;
+  background-color: var(--second-color);
 }
 
 .footer__logo{
