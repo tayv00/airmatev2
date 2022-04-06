@@ -163,7 +163,7 @@ the website, in dark theme
 }
 
 .dark-theme .responsive-table .current{
-  background-color: var(--first-color-lighten);
+  background-color: var(--second-color);
 }
 
 .dark-theme ol.gradient-list > li a {
@@ -176,8 +176,7 @@ the website, in dark theme
 
 .dark-theme .questions__content li a,
 .dark-theme .questions__content h3, 
-.dark-theme .questions__content h3 a,
-.dark-theme {
+.dark-theme .questions__content h3 a {
     color: var(--first-color);
   }
 
