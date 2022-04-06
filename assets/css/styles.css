@@ -162,12 +162,34 @@ the website, in dark theme
   color: var(--first-color);
 }
 
+.dark-theme .responsive-table .current{
+  background-color: var(--first-color-lighten);
+}
+
 .dark-theme ol.gradient-list > li a {
   color: var(--first-color);
 }
 
 .dark-theme .scroll-header{
   box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, .3);
+}
+
+.dark-theme .questions__content li a,
+.dark-theme .questions__content h3, 
+.dark-theme .questions__content h3 a,
+.dark-theme {
+    color: var(--first-color);
+  }
+
+.dark-theme .accordion-open .questions__header,
+.dark-theme .accordion-open .questions__content{
+  background-color: var(--second-color);
+}
+
+.dark-theme .accordion-open .questions__item-title,
+.dark-theme .accordion-open .questions__description,
+.dark-theme .accordion-open .questions__icon{
+  color: var(--first-color);
 }
 
 .dark-theme ol.gradient-list > li:nth-child(10n+1):before {
