@@ -1,0 +1,26 @@
+/* ------------REFERENCES BUTTON------------ */
+
+.toggle-content {
+    border: 2px solid #ccc;
+    display: none;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+  }
+  
+  .toggle-content[aria-hidden="false"] {
+    display: block;
+  }
+
+  .references-btn {
+    background: transparent;
+    border: 2px solid #131417;
+    cursor: pointer;
+    padding: .5rem 0;
+    font-size: .9rem;
+    transition: color 300ms ease, border-color 300ms ease, background-color 300ms ease;
+  }
+
+  .references-btn:hover {
+    color: #efefef;
+    background-color: #131417;
+  }
