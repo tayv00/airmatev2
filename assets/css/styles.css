@@ -162,7 +162,7 @@ the website, in dark theme
 
 .dark-theme .prog-table-1 .striped th, 
 .dark-theme .prog-table-1 .striped tr td {
-  background: #fff;
+  background: var(--container-color);
   border-bottom: 1px solid var(--first-color);
 }
 
@@ -175,9 +175,8 @@ the website, in dark theme
   background-color: var(--first-color);
 }
 
-.dark-theme .prog-table-1, 
-.dark-theme .prog-table-1 h2{
-  color: var(--first-color);
+.dark-theme .prog-table-1 {
+  color: #ffffff;
 }
  
 .dark-theme .prog-table-1 h2{
