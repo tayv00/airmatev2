@@ -158,10 +158,17 @@ the website, in dark theme
   color: var(--first-color-alt);
 }
 
+
+
 .dark-theme .prog-table-1 .striped th, 
 .dark-theme .prog-table-1 .striped tr td {
   background: #fff;
   border-bottom: 1px solid var(--first-color);
+}
+
+.dark-theme .prog-table-1 .striped .current td {
+  background: var(--second-color);
+  color: var(--first-color);
 }
 
 .dark-theme .prog-tableWrap {
@@ -172,11 +179,11 @@ the website, in dark theme
 .dark-theme .prog-table-1 h2{
   color: var(--first-color);
 }
-
-.dark-theme .prog-table-1 .current td {
-  background-color: var(--second-color);
-  color: var(--first-color);
+ 
+.dark-theme .prog-table-1 h2{
+  color: #ffffff;
 }
+
 
 .dark-theme ol.gradient-list > li a {
   color: var(--first-color);
