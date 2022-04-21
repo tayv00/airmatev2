@@ -8,10 +8,10 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 225;
-  --first-color: hsl(var(--hue), 89.5%, 3.7%);
+  --first-color: hsl(var(--hue), 89.5%, 3.7%);  /* ===#131417=== */
   --first-color-alt: hsl(var(--hue), 24%, 28%);
   --first-color-light: hsl(var(--hue), 24%, 66%);
-  --first-color-lighten: hsl(var(--hue), 24%, 92%);
+  --first-color-lighten: hsl(var(--hue), 24%, 92%);  /*=== #e6e8ef ===*/
   --title-color: hsl(var(--hue), 4%, 15%);
   --text-color: hsl(var(--hue), 4%, 35%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
@@ -158,11 +158,11 @@ the website, in dark theme
   color: var(--first-color-alt);
 }
 
-.dark-theme .responsive-table {
+.dark-theme .prog-table-1 {
   color: var(--first-color);
 }
 
-.dark-theme .responsive-table .current{
+.dark-theme .prog-table-1 .current td {
   background-color: var(--second-color);
 }
 
@@ -1167,51 +1167,96 @@ footer{
 
 
 
-/* programme table starts  */
-.table-container {
+/*=============== programme table starts =============*/
+.prog-tableWrap {
+  background: #e6e8ef;
+  padding: 1em;
   width: 85%;
   max-width: 1000px;
   margin: 50px auto;
-  /* padding-left: 10px;
-  padding-right: 10px; */
+  font-size: 0.9em;
 }
 
-.responsive-table {
-  padding: 0;
-  font-size: 14px;
+.prog-table-1 table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.responsive-table .current{
-  background-color: var(--first-color-lighten);
+.prog-table-1 h2 {
+  margin: 3rem;
+  text-align: center;
 }
-  .responsive-table li {
-    border-radius: 3px;
-    padding: 25px 30px;
-    display: flex;
-    justify-content: space-between;
-    margin:0 0 25px 0;
+
+
+
+/* Zebra striping */
+.prog-table-1 .striped tr {
+  background: #fff;
+}
+
+
+.prog-table-1 .striped th {
+  background: #fff;
+  border-bottom: 1px solid #e6e8ef;
+}
+
+.prog-table-1 .current td {
+  background: #131417;
+  color: #fff;
+}
+
+.prog-table-1 th {
+  font-weight: bold;
+}
+
+.prog-table-1 td, th {
+  padding: 14px;
+  text-align: center;
+}
+
+.prog-table-1 .striped tr td {
+  border-bottom: 1px solid #e6e8ef;
+}
+
+/* 
+This query will take effect for any screen smaller than 40em
+or 640px, iPads specifically.
+*/
+@media only screen and (max-width: 39.9375em) {
+ 
+
+  .prog-table-1 td {
+    /* Behave  like a "row" */
+    position: relative;
+    text-align: center;
   }
-  
-  .table-row {
-    background-color: #ffffff;
+
+ 
+
+  .prog-table-1 .striped tr {
+    margin-bottom: 3em;
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
   }
 
-  .table-row .col {
-    margin: 0 4px;
+  .prog-table-1 .striped tr td {
+    border-bottom: 1px solid #e6e8ef;
   }
 
-  .col-1 {
-    flex-basis: 10%;
-  }
-  .col-2 {
-    flex-basis: 40%;
-  }
-  .col-3 {
-    flex-basis: 25%;
+
+  .prog-table-1 table, thead, tbody, th, td, tr {
+    display: block;
   }
 
-  /* programme table ends */
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .prog-table-1 thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+
+
+  /*========== programme table ends =============*/
 
 
   /*=============== LIST OF TOPICS ===============*/
