@@ -158,12 +158,24 @@ the website, in dark theme
   color: var(--first-color-alt);
 }
 
-.dark-theme .prog-table-1 {
+.dark-theme .prog-table-1 .striped th, 
+.dark-theme .prog-table-1 .striped tr td {
+  background: #fff;
+  border-bottom: 1px solid var(--first-color);
+}
+
+.dark-theme .prog-tableWrap {
+  background-color: var(--first-color);
+}
+
+.dark-theme .prog-table-1, 
+.dark-theme .prog-table-1 h2{
   color: var(--first-color);
 }
 
 .dark-theme .prog-table-1 .current td {
   background-color: var(--second-color);
+  color: var(--first-color);
 }
 
 .dark-theme ol.gradient-list > li a {
@@ -1169,7 +1181,7 @@ footer{
 
 /*=============== programme table starts =============*/
 .prog-tableWrap {
-  background: #e6e8ef;
+  background: var(--first-color-lighten);
   padding: 1em;
   width: 85%;
   max-width: 1000px;
@@ -1197,11 +1209,11 @@ footer{
 
 .prog-table-1 .striped th {
   background: #fff;
-  border-bottom: 1px solid #e6e8ef;
+  border-bottom: 1px solid var(--first-color-lighten);
 }
 
 .prog-table-1 .current td {
-  background: #131417;
+  background: var(--first-color);
   color: #fff;
 }
 
@@ -1215,7 +1227,7 @@ footer{
 }
 
 .prog-table-1 .striped tr td {
-  border-bottom: 1px solid #e6e8ef;
+  border-bottom: 1px solid var(--first-color-lighten);
 }
 
 /* 
@@ -1239,7 +1251,7 @@ or 640px, iPads specifically.
   }
 
   .prog-table-1 .striped tr td {
-    border-bottom: 1px solid #e6e8ef;
+    border-bottom: 1px solid var(--first-color-lighten);
   }
 
 

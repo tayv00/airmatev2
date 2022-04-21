@@ -1,7 +1,7 @@
 /* ------------REFERENCES BUTTON------------ */
 
 .toggle-content {
-    border: 2px solid #ccc;
+    border: 2px solid var(--first-color-lighten);
     display: none;
     margin-top: 2rem;
     padding: 1rem 1.5rem;
@@ -13,7 +13,7 @@
 
   .references-btn {
     background: transparent;
-    border: 2px solid #131417;
+    border: 2px solid var(--first-color);
     cursor: pointer;
     padding: .5rem 0;
     font-size: .9rem;
@@ -22,5 +22,5 @@
 
   .references-btn:hover {
     color: #efefef;
-    background-color: #131417;
+    background-color: var(--first-color);
   }
