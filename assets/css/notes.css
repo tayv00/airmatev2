@@ -52,11 +52,15 @@
   }
   
   .carousel-nav .carousel-cell {
-    height: 80px;
+    height: 56px;
     width: 100px;
   }
   
   .carousel-nav .carousel-cell:before {
     font-size: 50px;
     line-height: 80px;
+  }
+
+  .video-slider {
+    margin-top: 3rem;
   }
