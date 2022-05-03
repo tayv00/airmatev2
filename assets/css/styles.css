@@ -560,9 +560,9 @@ img{
 }
 
   .questions__content li a{
-    margin: 5px;
+    margin: 0 0 0px 5px;
     color: #FFF;
-    font-size: var(--small-font-size);
+    font-size: .88rem;
   }
 
   .questions__content h3, .questions__content h3 a  {
