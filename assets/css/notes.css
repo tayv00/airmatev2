@@ -192,3 +192,20 @@ h4 {
   .video-slider {
     margin-top: 3rem;
   }
+
+/* ------------PRACTICE QUESTIONS------------ */
+
+.practice-questions {
+  font-size: var(--small-font-size);
+}
+
+.show-mcq-answer {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 0.5rem 1rem;
+    font-weight: var(--font-medium);
+    font-size: var(--smaller-font-size);
+    transition: .3s;
+    margin-bottom: 0.3rem;
+}
