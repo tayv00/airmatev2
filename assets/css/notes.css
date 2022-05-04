@@ -100,6 +100,10 @@ h1,h2,h3{
 }
 
 ul{
+  list-style: none;
+}
+
+.list-disc {
   list-style: disc;
 }
 
@@ -212,3 +216,40 @@ h4 {
     transition: .3s;
     margin-bottom: 0.3rem;
 }
+
+
+/* ------------SUGGESTED RESOURCES------------ */
+.suggested {
+  padding: 2rem 4rem 1rem 4rem;
+  color: var(--first-color-light);
+  max-width: 50rem;
+  background-color: var(--first-color);
+  margin: 4rem auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* box-shadow */
+}
+.prefix {
+  width: 6rem;
+  display: inline-block;
+}
+
+.suggested h2 {
+  font-size: 1.5rem;
+  color: #cfd8ee;
+  margin: 0 0 23px;
+}
+
+.suggested p {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.suggested hr {
+    background-color: var(--first-color-lighten);
+    border: none;
+    height: 1px;
+    margin: 0 0 21px;
+}
+
