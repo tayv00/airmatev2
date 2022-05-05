@@ -253,3 +253,42 @@ h4 {
     margin: 0 0 21px;
 }
 
+/* ------------OUTLINE------------ */
+.outline {
+  background-color: var(--first-color-lighten);
+}
+
+.accordion-open .questions__item-title,
+.accordion-open .questions__icon {
+  color: #cfd8ee;
+}
+
+.accordion-open .questions__description {
+  color: var(--first-color-light);
+}
+
+.questions__content li a {
+  color: var(--first-color-light);
+  font-size: 0.8rem;
+}
+
+.questions__content li {
+  margin-bottom: .5rem;
+}
+
+.questions__item {
+  border-radius: 5px;
+}
+
+.accordion-open .questions__header {
+  border-radius: 5px 5px 0 0;
+}
+
+.accordion-open .questions__content {
+  border-radius: 0 0 5px 5px;
+}
+
+/* ------------DOWNLOAD ITEM------------ */
+.download-item i{
+  display: inline-block;
+}
