@@ -956,16 +956,12 @@ footer{
   .home{
     padding: 13rem 0 5rem;
   }
-  .home__img{
-    /* width: 350px; */
-  }
+
   .home__description{
     padding-right: 7rem;
   }
 
-  .about__img{
-    /* width: 380px; */
-  }
+
 
   .steps__container{
     grid-template-columns: repeat(3, 1fr);

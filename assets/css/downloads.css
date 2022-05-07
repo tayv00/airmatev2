@@ -1,0 +1,227 @@
+.downloads-main {
+    margin: 0 auto;
+  }
+
+
+.downloads-main h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem 0 0 1.5rem;
+}
+
+.button a{
+    color: var(--first-color-lighten);
+  }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+
+  .downloads-main h1 {
+    margin: 6rem 0 0 1.5rem;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: #fff;
+}
+
+.card_title {
+  color: var(--first-color);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #333;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+/* ------------DYNAMIC TABS------------ */
+
+body .dynamic-container { 
+    font-size: 0;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    margin-top: 1.5rem;
+  }
+  body .dynamic-container input {
+    display: none;
+  }
+  body .dynamic-container input:checked + label {
+    background: var(--first-color-lighten);
+    color: var(--first-color);
+  }
+  body .dynamic-container input#tab1:checked ~ .line {
+    left: 0%;
+  }
+  body .dynamic-container input#tab1:checked ~ .content-container #c1 {
+    opacity: 1;
+  }
+  body .dynamic-container input#tab2:checked ~ .line {
+    left: 25%;
+  }
+  body .dynamic-container input#tab2:checked ~ .content-container #c2 {
+    opacity: 1;
+  }
+  body .dynamic-container input#tab3:checked ~ .line {
+    left: 50%;
+  }
+  body .dynamic-container input#tab3:checked ~ .content-container #c3 {
+    opacity: 1;
+  }
+  body .dynamic-container input#tab4:checked ~ .line {
+    left: 75%;
+  }
+  body .dynamic-container input#tab4:checked ~ .content-container #c4 {
+    opacity: 1;
+  }
+  body .dynamic-container label {
+    display: inline-block;
+    font-size: 1rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    width: 25%;
+    text-align: center;
+    background: var(--first-color);
+    color: var(--first-color-lighten);
+    position: relative;
+    transition: 0.25s background ease;
+    cursor: pointer;
+  }
+  body .dynamic-container label::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    background: var(--first-color);
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    transition: 0.25s ease;
+  }
+  body .dynamic-container label:hover::after {
+    opacity: 1;
+  }
+  body .dynamic-container .line {
+    position: absolute;
+    height: 2px;
+    background: var(--first-color);
+    width: 25%;
+    top: 34px;
+    left: 0;
+    transition: 0.25s ease;
+  }
+  body .dynamic-container .content-container {
+    background: var(--first-color-lighten);
+    position: relative;
+    height: 100rem;
+    font-size: 16px;
+  }
+  body .dynamic-container .content-container .content {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    top: 0;
+    opacity: 0;
+    transition: 0.25s ease;
+    color: var(--first-color);
+  }
+  body .dynamic-container .content-container .content h3 {
+    font-weight: 400;
+    margin: 10px 0;
+  }
+
+
+/* ------------TEXTBOOKS DOWNLOAD------------ */
+
+  .textbook-download {
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    position: relative;
+  }
+  .textbook-download h2 {
+    margin: 0;
+    padding: 1rem;
+    background: var(--first-color-light);
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: normal;
+    color: var(--first-color);
+    position: relative;
+  }
+  .textbook-download h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.4rem;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .textbook-download h3 {
+    padding: 1rem;
+  }
+  
+  .textbook-download ul {
+    list-style: none;
+    padding: 0 0 1rem 0;
+    margin: 0;
+  }
+  
+  .textbook-download li a {
+    color: var(--first-color-alt);
+    text-decoration: none;
+  }
+  
+  .textbook-download li {
+    padding: 0.8em 1em;
+    font-size: 0.9em;
+    border-bottom: 0.5px solid var(--first-color-light);
+  }
+  .textbook-download li:first-child {
+   border-top: 0.2px solid var(--first-color-light);
+  }
+  
+  
+
+  
+  
