@@ -6,7 +6,7 @@
 .downloads-main h1 {
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 2rem 0 0 1.5rem;
+    margin: 3.5rem 0 0 1.5rem;
 }
 
 .button a{
@@ -24,6 +24,7 @@
 .cards_item {
   display: flex;
   padding: 1rem;
+  margin: 0 auto;
 }
 
 @media (min-width: 40rem) {
@@ -93,24 +94,28 @@ body .dynamic-container {
   }
   body .dynamic-container input#tab1:checked ~ .content-container #c1 {
     opacity: 1;
+    z-index: 99;
   }
   body .dynamic-container input#tab2:checked ~ .line {
     left: 25%;
   }
   body .dynamic-container input#tab2:checked ~ .content-container #c2 {
     opacity: 1;
+    z-index: 99;
   }
   body .dynamic-container input#tab3:checked ~ .line {
     left: 50%;
   }
   body .dynamic-container input#tab3:checked ~ .content-container #c3 {
     opacity: 1;
+    z-index: 99;
   }
   body .dynamic-container input#tab4:checked ~ .line {
     left: 75%;
   }
   body .dynamic-container input#tab4:checked ~ .content-container #c4 {
     opacity: 1;
+    z-index: 99;
   }
   body .dynamic-container label {
     display: inline-block;
@@ -152,7 +157,7 @@ body .dynamic-container {
   body .dynamic-container .content-container {
     background: var(--first-color-lighten);
     position: relative;
-    height: 100rem;
+    height: 120rem;
     font-size: 16px;
   }
   body .dynamic-container .content-container .content {
@@ -181,9 +186,9 @@ body .dynamic-container {
   .textbook-download h2 {
     margin: 0;
     padding: 1rem;
-    background: var(--first-color-light);
     font-size: 1.2em;
     text-align: center;
+    border-bottom: 3px solid var(--first-color);
     font-weight: normal;
     color: var(--first-color);
     position: relative;
@@ -212,6 +217,11 @@ body .dynamic-container {
     text-decoration: none;
   }
   
+  .textbook-download li a:hover, 
+  .textbook-download li a:active {
+    text-decoration: underline;
+  }
+
   .textbook-download li {
     padding: 0.8em 1em;
     font-size: 0.9em;
