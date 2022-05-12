@@ -234,4 +234,66 @@ body .dynamic-container {
   
 
   
+  /* ------------VIDEOS DOWNLOAD------------ */
+  .video-container {
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    width: 80%;
+    border-radius: 7px;
+    padding: 5%;
+    margin: 5% auto;
+  }
   
+  .video-flex {
+    display: flex; 
+    justify-content: space-around;
+  }
+  .video-flex2 {
+    border-right: 1px solid var(--first-color-lighten);
+  }
+  .video-flex_content {
+    padding: 5% 5%;
+    flex: 1;                     
+  }
+  .video-flex_content h2 {
+    font-weight: 600;
+    color: var(--first-color-lighten);
+  }
+  .video-flex_content h4 {
+    font-weight: 400;
+  }
+  .video-flex_content span {
+    font-weight: 200;
+  }
+  .video-flex_content h4 {
+    margin: 0;
+  }
+  .video-flex_content ul {
+    padding-inline-start: 7%;
+    margin: 20% 0;
+    list-style: disc;
+  }
+  .video-flex_content ul li {
+    font-weight: 200;
+  }
+  .video-flex_content button {
+    outline: none;
+    border: none;
+    background: #fff;
+    color: var(--first-color);
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-family: "Nunito", sans-serif;
+    cursor: pointer;
+  }
+  
+
+  @media screen and (max-width: 700px) {
+    .video-flex {
+      flex-direction: column;
+    }
+    .video-flex2 {
+      border: none;
+    }
+  }  
